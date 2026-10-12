@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arlea-abadi.com/sitemap-index.xml
