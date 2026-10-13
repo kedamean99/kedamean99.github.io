@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arlea-abadi.com/sitemap-index.xml
+Sitemap: https://sedotwcdanlimbah.com/sitemap-index.xml
