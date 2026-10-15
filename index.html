@@ -44,7 +44,7 @@ return row(href,tgt,esc(c.n),extra);
 function render(q){
 q=(q||'').trim();if(!q){box.classList.add('hidden');return;}var ql=q.toLowerCase();var html='';
 var exact=null,partials=[];
-for(var i=0;i<cities.length;i++){var nl=cities[i].n.toLowerCase();if(nl===ql){exact=cities[i];}else if(!q||nl.indexOf(ql)!==-1){partials.push(cities[i]);}}
+for(var i=0;i<cities.length;i++){if(!cities[i].s)continue;var nl=cities[i].n.toLowerCase();if(nl===ql){exact=cities[i];}else if(nl.indexOf(ql)!==-1){partials.push(cities[i]);}}
 if(exact){html+=knownRow(exact);}
 if(q&&!exact&&!partials.length){
 html+=row(waUrl(q),' target="_blank" rel="noopener noreferrer"','Sedot WC di &ldquo;'+esc(q)+'&rdquo;','<span style="font-size:11px;font-weight:600;color:#0891B2;">WhatsApp &rarr;</span>');
