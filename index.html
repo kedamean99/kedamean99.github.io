@@ -42,7 +42,7 @@ var extra=c.s?'<span style="font-size:11px;font-weight:600;color:#0891B2;">Halam
 return row(href,tgt,esc(c.n),extra);
 }
 function render(q){
-q=(q||'').trim();var ql=q.toLowerCase();var html='';
+q=(q||'').trim();if(!q){box.classList.add('hidden');return;}var ql=q.toLowerCase();var html='';
 var exact=null,partials=[];
 for(var i=0;i<cities.length;i++){var nl=cities[i].n.toLowerCase();if(nl===ql){exact=cities[i];}else if(!q||nl.indexOf(ql)!==-1){partials.push(cities[i]);}}
 if(exact){html+=knownRow(exact);}
