@@ -19,6 +19,7 @@ JASA SEDOT WC DAN LIMBAH<br />
 <input id="city-search-input" type="text" placeholder="Ketik nama kota/kabupaten&hellip;" autocomplete="off" aria-label="Cari kota atau kabupaten layanan" style="width:100%;min-height:48px;padding:12px 14px 12px 42px;border-radius:10px;border:1px solid rgba(255,255,255,.7);background:rgba(255,255,255,.1);color:#fff;font-size:15px;font-weight:600;outline:none;box-sizing:border-box;">
 </div>
 <div id="city-search-results" class="hidden" role="listbox" aria-label="Hasil pencarian kota" style="position:absolute;left:0;right:0;margin-top:8px;max-height:300px;overflow-y:auto;background:#ffffff;border-radius:12px;border:1px solid #e2e8f0;box-shadow:0 12px 32px rgba(7,54,95,.28);z-index:50;text-align:left;"></div>
+<p style="margin:8px 0 0;font-size:11px;color:rgba(255,255,255,.75);text-align:center;">Kota/kabupaten mana pun di Indonesia bisa diketik</p>
 </div>
 <script>
 (function(){
@@ -30,20 +31,26 @@ var cities=[
 {n:'Surabaya'},{n:'Sidoarjo'},{n:'Gresik'},{n:'Pasuruan'},{n:'Malang'},
 {n:'Kediri'},{n:'Jombang'},{n:'Lamongan'},{n:'Banyuwangi'}
 ];
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function waUrl(c){return WA+encodeURIComponent('Halo ARLEA ABADI, saya butuh jasa sedot WC di '+c);}
-function render(q){
-q=(q||'').trim().toLowerCase();
-var matches=cities.filter(function(c){return c.n.toLowerCase().indexOf(q)!==-1;});
-if(!matches.length){
-box.innerHTML='<div style="padding:14px 16px;font-size:13px;color:#64748b;">Kota tidak ditemukan. <a href="'+WA+encodeURIComponent('Halo ARLEA ABADI, saya butuh jasa sedot WC')+'" target="_blank" rel="noopener noreferrer" style="color:#0891B2;font-weight:700;">Tanya via WhatsApp</a></div>';
-}else{
-box.innerHTML=matches.map(function(c){
-var href=c.u||waUrl(c.n);
-var extra=c.s?'<span style="font-size:11px;font-weight:600;color:#0891B2;">Halaman khusus &rarr;</span>':'';
-var tgt=c.u?'':' target="_blank" rel="noopener noreferrer"';
-return '<a href="'+href+'"'+tgt+' role="option" style="display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 16px;text-decoration:none;color:#07365F;font-weight:700;font-size:14px;" onmouseover="this.style.background=\'#E0F2FE\'" onmouseout="this.style.background=\'\'"><span>'+c.n+'</span>'+extra+'</a>';
-}).join('');
+function row(href,tgt,label,extra){
+return '<a href="'+href+'"'+tgt+' role="option" style="display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 16px;text-decoration:none;color:#07365F;font-weight:700;font-size:14px;" onmouseover="this.style.background=\'#E0F2FE\'" onmouseout="this.style.background=\'\'"><span>'+label+'</span>'+(extra||'')+'</a>';
 }
+function knownRow(c){
+var href=c.u||waUrl(c.n),tgt=c.u?'':' target="_blank" rel="noopener noreferrer"';
+var extra=c.s?'<span style="font-size:11px;font-weight:600;color:#0891B2;">Halaman khusus &rarr;</span>':'';
+return row(href,tgt,esc(c.n),extra);
+}
+function render(q){
+q=(q||'').trim();var ql=q.toLowerCase();var html='';
+var exact=null,partials=[];
+for(var i=0;i<cities.length;i++){var nl=cities[i].n.toLowerCase();if(nl===ql){exact=cities[i];}else if(!q||nl.indexOf(ql)!==-1){partials.push(cities[i]);}}
+if(exact){html+=knownRow(exact);}
+if(q&&!exact&&!partials.length){
+html+=row(waUrl(q),' target="_blank" rel="noopener noreferrer"','Sedot WC di &ldquo;'+esc(q)+'&rdquo;','<span style="font-size:11px;font-weight:600;color:#0891B2;">WhatsApp &rarr;</span>');
+}
+for(var j=0;j<partials.length;j++){html+=knownRow(partials[j]);}
+box.innerHTML=html;
 box.classList.remove('hidden');
 }
 input.addEventListener('input',function(){render(input.value);});
