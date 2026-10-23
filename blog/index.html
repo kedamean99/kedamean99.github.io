@@ -63,6 +63,11 @@ document.addEventListener('click', function(e){
         <p class="text-mutedGray text-sm sm:text-base leading-relaxed">
           Semua tentang kebersihan dan sanitasi: tips merawat rumah dan kamar mandi, mengatasi WC bermasalah, dan memahami limbah non-B3 — plus layanan kami untuk wilayah Anda, kecamatan demi kecamatan.
         </p>
+<div style="margin-top:1.25rem;position:relative;max-width:520px;margin-left:auto;margin-right:auto">
+<span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#64748B;pointer-events:none" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg></span>
+<input id="cari-artikel" type="search" placeholder="Cari artikel…" aria-label="Cari artikel" style="width:100%;padding:0.8rem 1rem 0.8rem 2.6rem;border:1px solid #D7E0EA;border-radius:9999px;background:#ffffff;font-size:1rem;color:#0F2A43" />
+</div>
+<p id="cari-kosong" style="display:none;margin-top:1rem;color:#64748B;font-size:0.95rem">Tidak ada artikel yang cocok dengan pencarian Anda.</p>
       </div>
       <div class="max-w-3xl mx-auto flex flex-col gap-5">
         <article class="p-6 sm:p-8 bg-white border border-borderGray rounded-brand hover:shadow-card transition-shadow">
@@ -140,6 +145,25 @@ document.addEventListener('click', function(e){
       </div>
     </div>
   </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var input = document.getElementById('cari-artikel');
+  var kosong = document.getElementById('cari-kosong');
+  if (!input) return;
+  var cards = document.querySelectorAll('article');
+  input.addEventListener('input', function () {
+    var q = input.value.trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function (c) {
+      var hit = !q || c.textContent.toLowerCase().indexOf(q) !== -1;
+      c.style.display = hit ? '' : 'none';
+      if (hit) visible++;
+    });
+    if (kosong) kosong.style.display = visible === 0 ? 'block' : 'none';
+  });
+});
+</script>
 </main>
 <footer class="pt-14 pb-20 sm:pb-7 text-[#DCE7F0] bg-navy-deep"> <div class="max-w-container mx-auto px-4 sm:px-6"> <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 sm:gap-10 mb-10"> <div> <div class="text-white text-xl sm:text-2xl font-black mb-3"> ARLEA ABADI </div> <p class="text-[#C6D5E3] text-xs sm:text-sm leading-relaxed"> Jasa Sedot WC &amp; Limbah ARLEA ABADI di Indonesia. Melayani jasa sedot WC penuh, pelancaran saluran WC mampet,
           pembuatan septic tank &amp; resapan baru, sedot limbah non-B3, dan sedot lumpur endapan.
