@@ -1,26 +1,129 @@
+# ==========================================
+# ARLEA ABADI - ROBOTS.TXT
+# AI SEARCH & SEARCH ENGINE CRAWLERS
+# ==========================================
+
 User-agent: *
 Allow: /
 
-# AI Search & Answer Engines (GEO & AEO Discovery)
+# ==========================================
+# DEEPSEEK AI
+# ==========================================
+
 User-agent: DeepSeekBot
 Allow: /
 
+# ==========================================
+# OPENAI - CHATGPT
+# ==========================================
+
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: OAI-AdsBot
+Allow: /
+
+# ==========================================
+# ANTHROPIC - CLAUDE
+# ==========================================
+
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ==========================================
+# GOOGLE - SEARCH & GEMINI
+# ==========================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: GoogleOther
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# ==========================================
+# PERPLEXITY AI
+# ==========================================
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ==========================================
+# APPLE AI & SIRI
+# ==========================================
+
+User-agent: Applebot
+Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
+
+# ==========================================
+# META AI
+# ==========================================
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ==========================================
+# OTHER AI CRAWLERS
+# ==========================================
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# ==========================================
+# SITEMAP
+# ==========================================
 
 Sitemap: https://sedotwcdanlimbah.com/sitemap-index.xml
