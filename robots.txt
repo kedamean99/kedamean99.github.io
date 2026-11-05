@@ -2,6 +2,9 @@ User-agent: *
 Allow: /
 
 # AI Search & Answer Engines (GEO & AEO Discovery)
+User-agent: DeepSeekBot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
