@@ -123,6 +123,16 @@ User-agent: MistralAI-User
 Allow: /
 
 # ==========================================
+# MICROSOFT BING & YANDEX
+# ==========================================
+
+User-agent: bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ==========================================
 # SITEMAP
 # ==========================================
 
