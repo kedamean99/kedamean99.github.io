@@ -1,1 +1,14 @@
 /sitemap.xml /sitemap-index.xml 301
+
+# Consolidation 301 Permanent Redirects - Keyword Cannibalization Resolution
+/sedot-wc-ngawi-ngawi /sedot-wc-ngawi/ 301
+/sedot-wc-ngawi-ngawi/ /sedot-wc-ngawi/ 301
+/sedot-wc-ngawi-ngawi/* /sedot-wc-ngawi/ 301
+
+/sedot-wc-magetan-magetan /sedot-wc-magetan/ 301
+/sedot-wc-magetan-magetan/ /sedot-wc-magetan/ 301
+/sedot-wc-magetan-magetan/* /sedot-wc-magetan/ 301
+
+/sedot-wc-jombang-jombang /sedot-wc-jombang/ 301
+/sedot-wc-jombang-jombang/ /sedot-wc-jombang/ 301
+/sedot-wc-jombang-jombang/* /sedot-wc-jombang/ 301
