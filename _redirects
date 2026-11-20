@@ -1,14 +1,150 @@
 /sitemap.xml /sitemap-index.xml 301
 
-# Consolidation 301 Permanent Redirects - Keyword Cannibalization Resolution
-/sedot-wc-ngawi-ngawi /sedot-wc-ngawi/ 301
-/sedot-wc-ngawi-ngawi/ /sedot-wc-ngawi/ 301
-/sedot-wc-ngawi-ngawi/* /sedot-wc-ngawi/ 301
+# Consolidation 301 Permanent Redirects - Keyword Cannibalization Resolution (Double Slugs & Deleted Pages)
+
+# Jawa Timur - Eks-Double Slugs
+/sedot-wc-bangkalan-bangkalan /sedot-wc-bangkalan/ 301
+/sedot-wc-bangkalan-bangkalan/ /sedot-wc-bangkalan/ 301
+/sedot-wc-bangkalan-bangkalan/* /sedot-wc-bangkalan/ 301
+
+/sedot-wc-banyuwangi-banyuwangi /sedot-wc-banyuwangi/ 301
+/sedot-wc-banyuwangi-banyuwangi/ /sedot-wc-banyuwangi/ 301
+/sedot-wc-banyuwangi-banyuwangi/* /sedot-wc-banyuwangi/ 301
+
+/sedot-wc-batu-batu /sedot-wc-batu/ 301
+/sedot-wc-batu-batu/ /sedot-wc-batu/ 301
+/sedot-wc-batu-batu/* /sedot-wc-batu/ 301
+
+/sedot-wc-bojonegoro-bojonegoro /sedot-wc-bojonegoro/ 301
+/sedot-wc-bojonegoro-bojonegoro/ /sedot-wc-bojonegoro/ 301
+/sedot-wc-bojonegoro-bojonegoro/* /sedot-wc-bojonegoro/ 301
+
+/sedot-wc-bondowoso-bondowoso /sedot-wc-bondowoso/ 301
+/sedot-wc-bondowoso-bondowoso/ /sedot-wc-bondowoso/ 301
+/sedot-wc-bondowoso-bondowoso/* /sedot-wc-bondowoso/ 301
+
+/sedot-wc-jombang-jombang /sedot-wc-jombang/ 301
+/sedot-wc-jombang-jombang/ /sedot-wc-jombang/ 301
+/sedot-wc-jombang-jombang/* /sedot-wc-jombang/ 301
+
+/sedot-wc-lamongan-lamongan /sedot-wc-lamongan/ 301
+/sedot-wc-lamongan-lamongan/ /sedot-wc-lamongan/ 301
+/sedot-wc-lamongan-lamongan/* /sedot-wc-lamongan/ 301
+
+/sedot-wc-lumajang-lumajang /sedot-wc-lumajang/ 301
+/sedot-wc-lumajang-lumajang/ /sedot-wc-lumajang/ 301
+/sedot-wc-lumajang-lumajang/* /sedot-wc-lumajang/ 301
+
+/sedot-wc-madiun-madiun /sedot-wc-madiun/ 301
+/sedot-wc-madiun-madiun/ /sedot-wc-madiun/ 301
+/sedot-wc-madiun-madiun/* /sedot-wc-madiun/ 301
 
 /sedot-wc-magetan-magetan /sedot-wc-magetan/ 301
 /sedot-wc-magetan-magetan/ /sedot-wc-magetan/ 301
 /sedot-wc-magetan-magetan/* /sedot-wc-magetan/ 301
 
-/sedot-wc-jombang-jombang /sedot-wc-jombang/ 301
-/sedot-wc-jombang-jombang/ /sedot-wc-jombang/ 301
-/sedot-wc-jombang-jombang/* /sedot-wc-jombang/ 301
+/sedot-wc-nganjuk-nganjuk /sedot-wc-nganjuk/ 301
+/sedot-wc-nganjuk-nganjuk/ /sedot-wc-nganjuk/ 301
+/sedot-wc-nganjuk-nganjuk/* /sedot-wc-nganjuk/ 301
+
+/sedot-wc-ngawi-ngawi /sedot-wc-ngawi/ 301
+/sedot-wc-ngawi-ngawi/ /sedot-wc-ngawi/ 301
+/sedot-wc-ngawi-ngawi/* /sedot-wc-ngawi/ 301
+
+/sedot-wc-pacitan-pacitan /sedot-wc-pacitan/ 301
+/sedot-wc-pacitan-pacitan/ /sedot-wc-pacitan/ 301
+/sedot-wc-pacitan-pacitan/* /sedot-wc-pacitan/ 301
+
+/sedot-wc-pamekasan-pamekasan /sedot-wc-pamekasan/ 301
+/sedot-wc-pamekasan-pamekasan/ /sedot-wc-pamekasan/ 301
+/sedot-wc-pamekasan-pamekasan/* /sedot-wc-pamekasan/ 301
+
+/sedot-wc-ponorogo-ponorogo /sedot-wc-ponorogo/ 301
+/sedot-wc-ponorogo-ponorogo/ /sedot-wc-ponorogo/ 301
+/sedot-wc-ponorogo-ponorogo/* /sedot-wc-ponorogo/ 301
+
+/sedot-wc-sampang-sampang /sedot-wc-sampang/ 301
+/sedot-wc-sampang-sampang/ /sedot-wc-sampang/ 301
+/sedot-wc-sampang-sampang/* /sedot-wc-sampang/ 301
+
+/sedot-wc-situbondo-situbondo /sedot-wc-situbondo/ 301
+/sedot-wc-situbondo-situbondo/ /sedot-wc-situbondo/ 301
+/sedot-wc-situbondo-situbondo/* /sedot-wc-situbondo/ 301
+
+/sedot-wc-trenggalek-trenggalek /sedot-wc-trenggalek/ 301
+/sedot-wc-trenggalek-trenggalek/ /sedot-wc-trenggalek/ 301
+/sedot-wc-trenggalek-trenggalek/* /sedot-wc-trenggalek/ 301
+
+/sedot-wc-tuban-tuban /sedot-wc-tuban/ 301
+/sedot-wc-tuban-tuban/ /sedot-wc-tuban/ 301
+/sedot-wc-tuban-tuban/* /sedot-wc-tuban/ 301
+
+/sedot-wc-tulungagung-tulungagung /sedot-wc-tulungagung/ 301
+/sedot-wc-tulungagung-tulungagung/ /sedot-wc-tulungagung/ 301
+/sedot-wc-tulungagung-tulungagung/* /sedot-wc-tulungagung/ 301
+
+# Bali - Eks-Double Slugs
+/sedot-wc-bangli-bangli /sedot-wc-bangli/ 301
+/sedot-wc-bangli-bangli/ /sedot-wc-bangli/ 301
+/sedot-wc-bangli-bangli/* /sedot-wc-bangli/ 301
+
+/sedot-wc-buleleng-buleleng /sedot-wc-buleleng/ 301
+/sedot-wc-buleleng-buleleng/ /sedot-wc-buleleng/ 301
+/sedot-wc-buleleng-buleleng/* /sedot-wc-buleleng/ 301
+
+/sedot-wc-gianyar-gianyar /sedot-wc-gianyar/ 301
+/sedot-wc-gianyar-gianyar/ /sedot-wc-gianyar/ 301
+/sedot-wc-gianyar-gianyar/* /sedot-wc-gianyar/ 301
+
+/sedot-wc-jembrana-jembrana /sedot-wc-jembrana/ 301
+/sedot-wc-jembrana-jembrana/ /sedot-wc-jembrana/ 301
+/sedot-wc-jembrana-jembrana/* /sedot-wc-jembrana/ 301
+
+/sedot-wc-karangasem-karangasem /sedot-wc-karangasem/ 301
+/sedot-wc-karangasem-karangasem/ /sedot-wc-karangasem/ 301
+/sedot-wc-karangasem-karangasem/* /sedot-wc-karangasem/ 301
+
+/sedot-wc-klungkung-klungkung /sedot-wc-klungkung/ 301
+/sedot-wc-klungkung-klungkung/ /sedot-wc-klungkung/ 301
+/sedot-wc-klungkung-klungkung/* /sedot-wc-klungkung/ 301
+
+/sedot-wc-tabanan-tabanan /sedot-wc-tabanan/ 301
+/sedot-wc-tabanan-tabanan/ /sedot-wc-tabanan/ 301
+/sedot-wc-tabanan-tabanan/* /sedot-wc-tabanan/ 301
+
+# Sumenep Kepulauan (Non-Aktif) -> Hub Sumenep
+/sedot-wc-arjasa-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-arjasa-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-arjasa-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-gayam-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-gayam-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-gayam-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-giligenteng-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-giligenteng-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-giligenteng-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-kangayan-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-kangayan-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-kangayan-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-masalembu-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-masalembu-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-masalembu-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-nonggunong-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-nonggunong-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-nonggunong-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-raas-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-raas-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-raas-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-sapeken-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-sapeken-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-sapeken-sumenep/* /sedot-wc-sumenep/ 301
+
+/sedot-wc-talango-sumenep /sedot-wc-sumenep/ 301
+/sedot-wc-talango-sumenep/ /sedot-wc-sumenep/ 301
+/sedot-wc-talango-sumenep/* /sedot-wc-sumenep/ 301
