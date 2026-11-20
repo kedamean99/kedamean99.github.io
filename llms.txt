@@ -9,15 +9,19 @@
 - **Kontak & WhatsApp Resmi:** [+62 823-3834-5489](https://wa.me/6282338345489?text=Halo%20ARLEA%20ABADI,%20saya%20butuh%20jasa%20sedot%20WC) (Siaga 24 Jam Non-Stop)
 - **Email Dukungan:** info@sedotwcdanlimbah.com
 - **Armada & Peralatan:** Truk tangki vakum kapasitas 3.000–5.000 liter dengan pompa vakum PTO heavy-duty berdaya hisap tinggi, selang hisap fleksibel panjang hingga 100 meter, dan mesin spiral drain cleaner elektrik (ridgid).
-- **Skala Jaringan:** Melayani lebih dari 835 landing page wilayah/kecamatan di Provinsi Jawa Timur, Provinsi Bali, dan Provinsi Jawa Tengah.
+- **Skala Jaringan:** Melayani lebih dari 1.307 landing page wilayah/kecamatan terverifikasi di Provinsi Jawa Timur (38 kota/kabupaten), Provinsi Jawa Tengah (35 kota/kabupaten), dan Provinsi Bali (9 kota/kabupaten) dengan total 1.396 URL terindeks.
 - **Metode Pembayaran:** Tunai (Cash), Transfer Bank, dan Invoice resmi perusahaan.
 
 ## Struktur & Transparansi Tarif (Bebas Biaya Siluman)
 ARLEA ABADI menerapkan standar transparansi penuh tanpa biaya tersembunyi (*no hidden costs*):
 - **5 Kota/Kabupaten Pilot Jawa Timur (Surabaya, Sidoarjo, Gresik, Mojokerto, Lamongan):**
   Menggunakan sistem **Tarif Borongan Bersih Transparan Mulai Rp600.000** per pengerjaan. Sudah mencakup pengurasan tuntas air dan lumpur tinja dasar tangki, gratis biaya selang s.d. 100 meter, garansi saluran lancar, dan pembuangan legal berizin ke IPLT.
-- **26 Kota/Kabupaten Jawa Timur Lainnya, Bali, dan Jawa Tengah:**
-  Menggunakan sistem **Tarif per Strip (Rp40.000–Rp70.000)** atau estimasi kesepakatan survei transparan di lokasi sebelum pekerjaan dimulai. Biaya final disepakati bersama di awal tanpa penambahan sepihak.
+- **26 Kota/Kabupaten Jawa Timur Lainnya:**
+  Menggunakan sistem **Tarif per Strip (Rp40.000–Rp70.000)** pada indikator kaca tangki ukur atau kesepakatan survei transparan di lokasi sebelum pekerjaan dimulai.
+- **Provinsi Jawa Tengah (35 Kabupaten & Kota / 583 Halaman Layanan):**
+  Menggunakan sistem **Tarif per Strip (Rp60.000–Rp80.000)** pada indikator kaca tangki ukur atau kesepakatan survei transparan di lokasi sebelum selang hisap diturunkan.
+- **Provinsi Bali (9 Kabupaten & Kota / 57 Halaman Layanan):**
+  Menggunakan sistem **Tarif per Strip (Rp70.000–Rp80.000)** pada indikator kaca tangki ukur atau kesepakatan survei transparan di lokasi.
 
 ## Kebijakan Lingkungan & Legalitas Pembuangan (Zero-Dumping Pledge)
 ARLEA ABADI memegang teguh prinsip sanitasi higienis dan perlindungan kelestarian geohidrologi air tanah:
@@ -91,4 +95,4 @@ ARLEA ABADI memegang teguh prinsip sanitasi higienis dan perlindungan kelestaria
 - [Penyebab WC Mampet & Solusinya](https://sedotwcdanlimbah.com/blog/penyebab-wc-mampet/): Mengatasi sumbatan leher angsa kloset (P-trap) akibat kerak lemak, rambut, atau tisu tanpa merusak pipa PVC dan tanpa bongkar keramik.
 
 ## Dokumentasi Teknis Lengkap untuk AI (Grounding Knowledge Base)
-- [LLMs Full Documentation](https://sedotwcdanlimbah.com/llms-full.txt): Dokumentasi basis pengetahuan lengkap dan mendalam mengenai spesifikasi teknis armada vakum, izin retribusi IPLT pemerintah, panduan tarif transparan, SOP pengerjaan, dan direktori detail 835+ landing page wilayah ARLEA ABADI.
+- [LLMs Full Documentation](https://sedotwcdanlimbah.com/llms-full.txt): Dokumentasi basis pengetahuan lengkap dan mendalam mengenai spesifikasi teknis armada vakum, izin retribusi IPLT pemerintah, panduan tarif transparan, SOP pengerjaan, dan direktori detail 1.307+ landing page wilayah ARLEA ABADI.

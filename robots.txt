@@ -5,7 +5,21 @@
 
 User-agent: *
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
 Disallow: /cdn-cgi/
+
+# ==========================================
+# COMMERCIAL AUDIT & SEO SCRAPERS (RATE LIMITED)
+# ==========================================
+
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: PetalBot
+Crawl-delay: 5
 
 # ==========================================
 # DEEPSEEK AI
@@ -99,8 +113,17 @@ User-agent: FacebookBot
 Allow: /
 
 # ==========================================
-# OTHER AI CRAWLERS
+# XAI GROK & OTHER AI CRAWLERS
 # ==========================================
+
+User-agent: GrokBot
+Allow: /
+
+User-agent: KagiBot
+Allow: /
+
+User-agent: TavilyBot
+Allow: /
 
 User-agent: Bytespider
 Allow: /
@@ -134,7 +157,8 @@ User-agent: YandexBot
 Allow: /
 
 # ==========================================
-# SITEMAP
+# SITEMAP & HOST
 # ==========================================
 
+Host: https://sedotwcdanlimbah.com
 Sitemap: https://sedotwcdanlimbah.com/sitemap-index.xml
