@@ -96,8 +96,10 @@ export async function onRequest(context) {
   }
 
   // 2. Double-slug cities: /sedot-wc-[city]-[city] -> /sedot-wc-[city]/
+  //    Exception: districts that DO have their own page (Gresik since 21 Nov 2026)
+  const doubleExceptions = ["gresik"];
   const doubleMatch = path.match(/^\/sedot-wc-([a-z]+)-\1\/?$/);
-  if (doubleMatch) {
+  if (doubleMatch && !doubleExceptions.includes(doubleMatch[1])) {
     return Response.redirect(`${url.origin}/sedot-wc-${doubleMatch[1]}/`, 301);
   }
 
