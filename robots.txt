@@ -14,11 +14,23 @@ Disallow: /cdn-cgi/
 # ==========================================
 
 User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
 User-agent: SemrushBot-SA
+Allow: /
+Crawl-delay: 5
+
 User-agent: AhrefsBot
-User-agent: MJ12bot
+Allow: /
+Crawl-delay: 5
+
 User-agent: DotBot
+Allow: /
+Crawl-delay: 5
+
 User-agent: PetalBot
+Allow: /
 Crawl-delay: 5
 
 # ==========================================
